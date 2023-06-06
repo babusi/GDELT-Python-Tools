@@ -4,15 +4,15 @@ Working with the [GDELT Visual Global Knowledge Graph](https://www.gdeltproject.
 
 ## "smaller_files.py"
 
-This script takes the GDELT file and breaks it down into smaller, more manageable files. By splitting the file into smaller chunks, it's easier to visualise, work with, and manipulate the data.
+This script takes the GDELT CSV file and breaks it down into smaller, more manageable files. By splitting the file into smaller chunks, it's easier to visualise, work with, and manipulate the data.
 
 ## "clean_face.py"
 
-This script removes rows from the CSV file that do not have any faces in them. This is important when working with images because we only want to use images that have faces in them for analysis and visualization.
+This script removes rows from the CSV file that do not have any faces in them. This is important when working with images of people because you will likely only want to use images that have faces in them for analysis and visualization.
 
 ## "remove_cols.py"
 
-This script removes unnecessary columns from the CSV file. Sometimes a CSV file can have a lot of columns, and not all of them are relevant to the analysis or visualization. By removing unnecessary columns, we can focus on the important data.
+This script removes unnecessary columns from a CSV file. Sometimes a CSV file can have a lot of columns, and not all of them are relevant to the analysis or visualization. By removing unnecessary columns, we can focus on the important data.
 
 ## "clean_images.py"
 
